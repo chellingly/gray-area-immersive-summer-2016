@@ -45,7 +45,11 @@ http://www.codewars.com/
 
 
 ##Text Editors
-[Sublime **I'll be using this one](https://www.sublimetext.com/)
+
+[Sublime](https://www.sublimetext.com/)**I'll be using this one
+
 [Brackets](http://brackets.io/)
+
 [Atom](https://atom.io/)
+
 
