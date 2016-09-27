@@ -1,12 +1,17 @@
+//Javascript Function as a Callback for An Event
+
 var bgcolor;
-var button;
+var button;//create this to create callback
 // var bigger;
+
+//mousePressed function is "callback" the function that executes to a particular object.
+//store result of CreateButton in variable
 
 
 function setup() {
   canvas = createCanvas(200, 200);
   bgcolor = color(200);
-  button = createButton("go go go go");// create button element
+  button = createButton("Change Color");// create button element
   button.mousePressed(changeColor);
 
   
@@ -18,6 +23,8 @@ function changeColor() {
   
 }
 
+
+//This is Global, not yet a callback
 // function mousePressed() {
 //   changeColor();
 // }
